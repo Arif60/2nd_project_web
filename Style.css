@@ -10,6 +10,10 @@ body{
 	line-height: 30px;
 	/*overflow-x:hidden;*/
 	font-family: sans-serif;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	font-family: Prata,serif;
+	font-weight: 500;
 }
 .buttons a{
 	font-size: 15px;
@@ -43,18 +47,103 @@ body{
 	color: #999999; 
 	font-size: 14px;
 }
+.ftr-list{
+	margin-top: 140px;
+	position: relative;
+}
+ .ftr-list span{
+ 	display: block;
+ 	margin: 15px;
+ 	font-family: Prata,serif; 
+
+ 
+ }
+ .ftr-list span a{
+ 	text-decoration: none;
+ 	color: #999999;
+ 	font-size: 1.5rem;
+ 	text-transform: none;
+ 	font-weight: 400;
+
+ }
+.ftr-list span a:hover
+{
+	color: #e9c0a4;
+}
+.News span{
+	color: #e9c0a4;
+	font-family: Prata,serif; 
+}
+.News a{
+	text-decoration: none;
+ 	color: #000;
+ 	text-transform: none;
+
+}
+.News a:hover{
+	color: #e9c0a4;
+}
+
+.News-cntr{
+	font-family: Prata,serif; 
+}
+.News-cntr a{
+	text-decoration: none;
+	color: #000;
+}
+.News-cntr a:hover{
+	color: #e9c0a4;
+}
+.News-disp{
+      color: #999999;
+      font-family: Prata,serif; 
+
+}
+
+.readmore{
+	font-family: Prata,serif; 
+
+}
+.readmore a{
+	text-decoration: none;
+	color: #e9c0a4;
+
+}
+.Email{
+	margin-top: 10px;
+	font-family: Prata,serif;
+	font-size: 30px;
+	color: #e9c0a4; 
+}
+.back a{
+	text-decoration: none;
+	color: #e9c0a4;
+}
+
+.story-us{
+	font-family: Prata,serif;
 
 
+}
+.story-us p{
+	color: #999999;
+}
+.story-us span{
+	font-size: 20px;
+	font-weight: 500;
+}
 
+.story-us span:hover{
+	color: #e9c0a4;
+}
 
-
-
-
-
-
-
-
-
+.about-btn{
+	text-align: center;
+}
+.about-btn a{
+         text-decoration: none;
+         color: #e9c0a4;
+}
 
 
 
