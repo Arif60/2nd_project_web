@@ -6,10 +6,15 @@
 	<title>Grenda</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	 <link rel="stylesheet" href="animate.css">
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>-->
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-	
+	<script type="text/javascript" src="jqury.js"></script>
+	<link rel="stylesheet" href="owl.carousel.css">
+    <link rel="stylesheet" href="owl.theme.default.css">
+    <script type="text/javascript" src="jqury.js"></script>
+    <script type="text/javascript" src="owl.carousel.js"></script>
 
 
 
@@ -61,7 +66,7 @@
         <!--nav-->
         <div class="nav" style="background-color: #e9c0a4; height: 85px; margin-top: 30px;">
         	<div class="nav-menu">
-        		    <div class="header-image" style="text-align: center; fill: #fff; margin-left: 108%; margin-top: -5px;">
+        		    <div class="header-image" style="text-align: center; fill: #fff; margin-left: 97%; margin-top: -6px;">
                         <svg width="420px" height="25px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                   xmlns:xlink=
                                               "http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -80,20 +85,73 @@
                             </g>
                         </svg>
                     </div>
-                    <nav class="nav">
-  <a class="nav-link active" href="#">Active</a>
-  <a class="nav-link" href="#">Link</a>
-  <a class="nav-link" href="#">Link</a>
-  <a class="nav-link disabled" href="#">Disabled</a>
+                 <nav class="navbar navbar-expand-lg navbar-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Home
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Home1</a>
+          <a class="dropdown-item" href="#">Home2</a>
+         <!-- <a class="dropdown-item" href="#">Something else here</a>--->
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About us</a>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Corporate</a>
+          <a class="dropdown-item" href="#">Event planning</a>
+          <a class="dropdown-item" href="#">Parties</a>
+          <a class="dropdown-item" href="#">Wedding</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Menus</a>
+      </li>
+    </ul>
+  </div>
 </nav>
          
             </div>
-<div class="right-nav" style="margin-left: 536px; margin-top: 30px;">
-               <nav class="nav ml-right">
-  <a class="nav-link active" href="#">Active</a>
-  <a class="nav-link" href="#">Link</a>
-  <a class="nav-link" href="#">Link</a>
-  <a class="nav-link disabled" href="#">Disabled</a>
+<div class="right-nav" style="margin-left: 877px; margin-top: 30px; position: absolute;">
+              <nav class="navbar navbar-expand-lg navbar-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Venues <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Blog</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Page
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+    </ul>
+  </div>
 </nav>
 </div>
         	
@@ -104,13 +162,24 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="images/slider1.jpg" alt="First slide">
+      <div class="carousel-caption">
+          <div>
+        <h1 class="animated bounceInUp slow">Catering</h1>
+        <p class="cap-p animated heartBeat slow">Let's Plan Your Next Event Together </p>
+    </div>
+        <div>
+        <button type="button" class="btn btn-light btn-lg animated bounceInUp slow">learn More</button></div>
+    </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="images/slider2.jpg" alt="Second slide">
-       <div class="carousel-caption d-none d-md-block">
-    <h5>hello</h5>
-    <p>this is a ctring</p>
-  </div>
+      <div class="carousel-caption">
+          <div>
+        <h1 class="animated bounceInUp slow">Party</h1>
+        <p class=" cap-p animated zoomIn slow">Let's Plan Your Next Event Together </p>
+          </div>
+        <div>
+        <button type="button" class="btn btn-light btn-lg">Reservation Now</button></div>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -141,8 +210,12 @@
 		     <div class="welcome-pic" style="margin-top: 40px;">
 		   <div class="row">
 		   	    <div class="col-md-6">
+		   	    	
 		   	    	<div class="service">
-		   	    		<a href="#"><img src="images/service1.jpg" style="max-width: 100%; height: auto;"></a>
+		   	    		<div class="wel-cap" style="position: absolute; margin-left: 35%; margin-top: 45%; color: white; font-weight: 700; text-shadow: 1px 1px 15px #000;">
+		   	    		<h1>Corporate</h1>
+		   	    	</div>
+		   	    		<a href="#"><img src="images/service1.jpg" style="width: 100%; height: auto;"></a>
 		   	    		
 		   	    	</div>
 		   		
@@ -151,6 +224,9 @@
 		   	    	<div class="row">
 		   	    		<div class="col-md-12">
 		   	    			<div class="service">
+		   	    				<div class="wel-cap" style="position: absolute; margin-left: 40%; margin-top: 20%; color: white; font-weight: 700;   text-shadow: 1px 1px 15px #000;">
+		   	    		<h1>Parties</h1>
+		   	    	</div>
 		   	    				<a href="#"><img src="images/service_02.jpg"></a>
 		   	    				
 		   	    			</div>
@@ -161,6 +237,9 @@
 		   	    	<div class="row" style="margin-top: 40px;">
 		   	    		<div class="col-md-6">
 		   	    			<div class="service">
+		   	    				<div class="wel-cap" style="position: absolute; margin-left: 25%; margin-top: 40%; color: white; font-weight: 700;    text-shadow: 1px 1px 15px #000;">
+		   	    		<h1>Wedding</h1>
+		   	    	</div>
 		   	    				<a href="#"><img src="images/service_03.jpg"></a>
 		   	    				
 		   	    			</div>
@@ -168,6 +247,9 @@
 		   	    		</div>
 		   	    		<div class="col-md-6">
 		   	    			<div class="service">
+		   	    				<div class="wel-cap" style="position: absolute; margin-left: 25%; margin-top: 40%; color: white; font-weight: 800;  text-shadow: 1px 1px 15px #000;">
+		   	    		<h1>Event<br>Planning</h1>
+		   	    	</div>
 		   	    				<a href="#"><img src="images/service_04.jpg"></a>
 		   	    				
 		   	    			</div>
@@ -258,6 +340,72 @@
 
 </section>
 
+<section class="container-fluid" style="background-color: #f5efec; ">
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="menus-cap" style="margin-top: 100px; margin-left: 100px; margin-bottom: 85px; letter-spacing: 2px;">
+					<h1>Our Menus</h1>
+					<span>SELECT FROM THE FOLLOWING MENU OPTIONS</span>
+					
+				</div>
+				
+			</div>
+		</div>
+	
+		
+	</div>
+	<div class="prents-box owl-carousel">
+		<div class="box">
+			<div class="menus-name" style="position: absolute; margin-left: 30%; margin-top:130px; color: #fff; text-shadow: 1px 1px 15px #000;">
+				<h1>Beverages</h1>
+				</div>
+			<a href="#"><img src="images/menu_9.jpg" height="300px;"></a>
+		
+		</div>
+		<div class="box">
+				<div class="menus-name" style="position: absolute; margin-left: 30%; margin-top:130px; color: #fff; text-shadow: 1px 1px 15px #000;">
+				<h1>Plated</h1>
+				</div>
+			<a href="#"><img src="images/menu10.jpg" height="300px;"></a>
+		</div>
+		<div class="box">
+				<div class="menus-name" style="position: absolute; margin-left: 30%; margin-top:130px; color: #fff; text-shadow: 1px 1px 15px #000;">
+				<h1>Buffet / Family</h1>
+				</div>
+			<a href="#"><img src="images/menu_4.jpg" height="300px;"></a>
+		</div>
+		<div class="box">
+				<div class="menus-name" style="position: absolute; margin-left: 30%; margin-top:130px; color: #fff; text-shadow: 1px 1px 20px #000;">
+				<h1>Reception</h1>
+				</div>
+			<a href="#"><img src="images/menu_5.jpg" height="300px;"></a>
+		</div>
+		<div class="box">
+				<div class="menus-name" style="position: absolute; margin-left: 30%; margin-top:130px; color: #fff; text-shadow: 1px 1px 15px #000;">
+				<h1>BBQ</h1>
+				</div>
+			<a href="#"><img src="images/menu_6.jpg" height="300px;"></a>
+		</div>
+		<div class="box">
+				<div class="menus-name" style="position: absolute; margin-left: 30%; margin-top:130px; color: #fff; text-shadow: 1px 1px 15px #000;">
+				<h1>Office Catering</h1>
+				</div>
+			<a href="#"><img src="images/menu_7.jpg" height="300px;"></a>
+		</div>
+	</div>
+	
+</section>
+  <script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+        autoplay:true,
+        autoplayHoverpause: true,
+    loop:true,
+    margin:10,
+    nav:true,
+    items:3
+})
+</script>  
 
 
 
@@ -523,12 +671,107 @@
 </section>
 
 
+<section class="container-fluid" style="background-color: #f5efec;">
+	<div class="row">
+			<div class="col-md-12">
+				<div class="menus-cap" style="margin-top: 100px; margin-left: 100px; margin-bottom: 85px; letter-spacing: 2px;">
+					<h1>Gallery</h1>
+					<span>CHECK OUR RECENT PROJECTS</span>
+					
+				</div>
+				
+			</div>
+		</div>
+	
+		
+	</div>
+	<div class="prents-box owl-carousel">
+		<div class="box" style="background-image: url(images/gallery10.jpg);">
+			<div class="menus-nm" style="position: relative; margin-left: 30%; margin-top:300px; color: #fff; text-shadow: 1px 1px 15px #000;">
+				<h1>                Religious Ceremonies            </h1>
+				</div>
+			<!--<a href="#"><img src="images/gallery10.jpg" height="400px;"></a>-->
+		
+		</div>
+		<div class="box">
+				<div class="menus-nm" style="position: absolute; margin-left: 30%; margin-top:300px; color: #fff; text-shadow: 1px 1px 15px #000;">
+				<h1>Bespoke Wedding</h1>
+				</div>
+			<a href="#"><img src="images/gallery11.jpg" height="400px;"></a>
+		</div>
+		<div class="box">
+				<div class="menus-nm" style="position: absolute; margin-left: 30%; margin-top:300px; color: #fff; text-shadow: 1px 1px 15px #000;">
+				<h1>                
+                               Traditional to Modern                        </h1>
+				</div>
+			<a href="#"><img src="images/gallery2-min.jpg" height="400px;"></a>
+		</div>
+		<div class="box">
+				<div class="menus-nm" style="position: absolute; margin-left: 30%; margin-top:300px; color: #fff; text-shadow: 1px 1px 20px #000;">
+				<h1>                One-of-a-kind Events            </h1>
+				</div>
+			<a href="#"><img src="images/gallery3-min.jpg" height="400px;"></a>
+		</div>
+		<div class="box">
+				<div class="menus-nm" style="position: absolute; margin-left: 30%; margin-top:300px; color: #fff; text-shadow: 1px 1px 15px #000;">
+				<h1>                Decorations            </h1>
+				</div>
+			<a href="#"><img src="images/gallery4-min.jpg" height="400px;"></a>
+		</div>
+		<div class="box">
+				<div class="menus-nm" style="position: absolute; margin-left: 30%; margin-top:300px; color: #fff; text-shadow: 1px 1px 15px #000;">
+				<h1>                Fanny and Ian’s Wedding            </h1>
+				</div>
+			<a href="#"><img src="images/galery_8.jpg" height="400px;"></a>
+		</div>
+		<div class="box">
+				<div class="menus-nm" style="position: absolute; margin-left: 30%; margin-top:300px; color: #fff; text-shadow: 1px 1px 15px #000;">
+				<h1> Emily & Brad Wedding  </h1>
+				</div>
+			<a href="#"><img src="images/gallery1-min.jpg" height="400px;"></a>
+		</div>
+	</div>
+	
+</section>
+  <script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+        autoplay:true,
+        autoplayHoverpause: true,
+    loop:true,
+    margin:10,
+    nav:true,
+    items:2,
+    responsive : {
+    // breakpoint from 0 up
+    0 : {
+        option1 : value,
+        option2 : value,
+        ...
+    },
+    // breakpoint from 480 up
+    480 : {
+        option1 : value,
+        option2 : value,
+        ...
+    },
+    // breakpoint from 768 up
+    768 : {
+        option1 : value,
+        option2 : value,
+        ...
+    }
+}
+})
+</script>  
+
+
+
 <!----footer---->
 
 
 <section class="container-fluid">
 	<div class="footer">
-		<div class="footer-top" style="margin-left: 208px; margin-top: 160px; margin-bottom: 63px;">
+		<div class="footer-top" style="margin-left: 166px; margin-top: 160px; margin-bottom: 63px;">
 		<h1 style="font-family: Prata,serif; line-height: 70px; font-size: 6rem; text-transform: none; color: #000; margin-bottom: 7px; font-weight: 400;">News</h1>
 		<p style="color: #999999; font-family: Prata,serif;">DON’T MISS OUR LATEST UPDATE</p>
           
@@ -585,24 +828,40 @@
          	
          </div>
     
-
+<div class="container-fluid">
      <div class="row" style="background-color: #f5efec !important; margin-bottom: 1px;">
      	<div class="col-md-6">
      		<div class="map">
-     			<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224368.3937161665!2d77.25804255623406!3d28.516983403614002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1584595422567!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+     			<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224368.3937161665!2d77.25804255623406!3d28.516983403614002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1584595422567!5m2!1sen!2sin" width="590" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
      		</div>
      		
      	</div>
-     	<div class="ftr-contect" style="background-color: white;">
-			<div class="col-md-4">
-			
-				<h1>hello</h1>
-			</div>
+			<div class="col-md-5" style="background-color: white;">
+			     	<div class="ftr-contect" style="background-color: white;">
+			     		<div class="cont-head" style="margin-left: 200px; margin-top: 50px; margin-bottom: 20px; position: relative;">
+			     			<h1>CONTCAT</h1>
+			     			<span>LEAVE A FEEDBACK</span>
+			     		</div>
+
+				<div class="wrapper">
+  <div class="contact-form">
+    <div class="input-fields">
+      <input type="text" class="input" placeholder="Name">
+      <input type="text" class="input" placeholder="Email Address">
+    </div>
+    <div class="msg">
+      <textarea placeholder="Message"></textarea>
+      <div class="btn-frm">send</div>
+    </div>
+  </div>
+</div>	
 		</div>
      	
      </div>
 		
 	</div>
+
+</div>
 	<div class="container">
 		   <div class="row" style="border-bottom: 1px solid gray; margin-top: 50px;">
 		   	<div class="col-md-4">
@@ -645,11 +904,23 @@
 				
 			</div>
 			<div class="col-md-4">
-			<div class="join-mail" style="margin-top: 50px;">
+			<div class="join-mail" style="margin-top: 50px; margin-left: 40px;">
 				<span>Join Our Mailing List</span>
 
 				<p>Receive invitations, updates and bonuses for purchasing</p>
 			</div>
+						<div class="wrapper">
+  <div class="contact-form">
+    <div class="input-fields">
+      <!--<input type="text" class="input" placeholder="Name">-->
+      <input type="text" class="input" placeholder="Email Address">
+    </div>
+    <div class="msg">
+      <!--<textarea placeholder="Message"></textarea>-->
+      <div class="btn-frm">send</div>
+    </div>
+  </div>
+</div>
 			</div>
 		
 			
