@@ -340,7 +340,7 @@ body{
  }	
 
 }
-@media Screen and (max-width: 800px){
+@media Screen and (min-width: 800px){
 	body{
 		overflow-x: hidden;
 	}
