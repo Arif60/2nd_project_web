@@ -340,15 +340,10 @@ body{
  }	
 
 }
-@media Screen and (max-width: 1000px){
-.logo{
-	float: right;
-}
- 
-}
-
-@media Screen and (max-width: 1000px){
-	
+@media Screen and (max-width: 800px){
+	body{
+		overflow-x: hidden;
+	}
 }
 
 
