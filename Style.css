@@ -271,7 +271,20 @@ body{
 	margin: 10px;
 }
 
-
+.footer-social li{
+	display: inline-block;
+	margin: 3px;
+}
+.footer-social li a{
+	color: #999999;
+}
+.footer-social li a:hover{
+	color: #e9c0a1;
+	padding: 2px;
+}
+.back a:hover{
+	color: #e9c0a1;
+}
 
 
 
@@ -334,6 +347,9 @@ body{
  
 }
 
+@media Screen and (max-width: 1000px){
+	
+}
 
 
 

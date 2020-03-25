@@ -10,6 +10,7 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 	<!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>-->
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script type="text/javascript" src="jqury.js"></script>
 	<link rel="stylesheet" href="owl.carousel.css">
     <link rel="stylesheet" href="owl.theme.default.css">
@@ -179,7 +180,7 @@
         <p class=" cap-p animated zoomIn slow">Let's Plan Your Next Event Together </p>
           </div>
         <div>
-        <button type="button" class="btn btn-light btn-lg">Reservation Now</button></div>
+        <button type="button" class="btn btn-light btn-lg">learn more</button></div>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -403,7 +404,17 @@
     loop:true,
     margin:10,
     nav:true,
-    items:3
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
 })
 </script>  
 
@@ -686,49 +697,49 @@
 		
 	</div>
 	<div class="prents-box owl-carousel">
-		<div class="box" style="background-image: url(images/gallery10.jpg);">
-			<div class="menus-nm" style="position: relative; margin-left: 30%; margin-top:300px; color: #fff; text-shadow: 1px 1px 15px #000;">
+		<div class="box" style="background-image: url(images/gallery10.jpg);  background-size: auto; background-position: center; background-size: 600px 400px; background-repeat: no-repeat;">
+			<div class="menus-nm" style="position: absolute; margin-left: 30%; margin-top:300px; color: #fff; text-shadow: 1px 1px 15px #000;">
 				<h1>                Religious Ceremonies            </h1>
 				</div>
 			<!--<a href="#"><img src="images/gallery10.jpg" height="400px;"></a>-->
 		
 		</div>
-		<div class="box">
+		<div class="box" style="background-image: url(images/gallery11.jpg);  background-size: auto; background-position: center; background-size: 600px 400px; background-repeat: no-repeat;">
 				<div class="menus-nm" style="position: absolute; margin-left: 30%; margin-top:300px; color: #fff; text-shadow: 1px 1px 15px #000;">
 				<h1>Bespoke Wedding</h1>
 				</div>
-			<a href="#"><img src="images/gallery11.jpg" height="400px;"></a>
+			<!--<a href="#"><img src="images/gallery11.jpg" height="400px;"></a>-->
 		</div>
-		<div class="box">
+		<div class="box" style="background-image: url(images/gallery2-min.jpg);  background-size: auto; background-position: center; background-size: 600px 400px; background-repeat: no-repeat;">
 				<div class="menus-nm" style="position: absolute; margin-left: 30%; margin-top:300px; color: #fff; text-shadow: 1px 1px 15px #000;">
 				<h1>                
                                Traditional to Modern                        </h1>
 				</div>
-			<a href="#"><img src="images/gallery2-min.jpg" height="400px;"></a>
+			<!---<a href="#"><img src="images/gallery2-min.jpg" height="400px;"></a>--->
 		</div>
-		<div class="box">
+		<div class="box" style="background-image: url(images/gallery3-min.jpg);  background-size: auto; background-position: center; background-size: 600px 400px; background-repeat: no-repeat;">
 				<div class="menus-nm" style="position: absolute; margin-left: 30%; margin-top:300px; color: #fff; text-shadow: 1px 1px 20px #000;">
 				<h1>                One-of-a-kind Events            </h1>
 				</div>
-			<a href="#"><img src="images/gallery3-min.jpg" height="400px;"></a>
+			<!--<a href="#"><img src="images/gallery3-min.jpg" height="400px;"></a>-->
 		</div>
-		<div class="box">
+		<div class="box" style="background-image: url(images/gallery4-min.jpg);  background-size: auto; background-position: center; background-size: 600px 400px; background-repeat: no-repeat;">
 				<div class="menus-nm" style="position: absolute; margin-left: 30%; margin-top:300px; color: #fff; text-shadow: 1px 1px 15px #000;">
 				<h1>                Decorations            </h1>
 				</div>
-			<a href="#"><img src="images/gallery4-min.jpg" height="400px;"></a>
+			<!--<a href="#"><img src="images/gallery4-min.jpg" height="400px;"></a>-->
 		</div>
-		<div class="box">
+		<div class="box" style="background-image: url(images/galery_8.jpg);  background-size: auto; background-position: center; background-size: 600px 400px; background-repeat: no-repeat;">
 				<div class="menus-nm" style="position: absolute; margin-left: 30%; margin-top:300px; color: #fff; text-shadow: 1px 1px 15px #000;">
 				<h1>                Fanny and Ian’s Wedding            </h1>
 				</div>
-			<a href="#"><img src="images/galery_8.jpg" height="400px;"></a>
+			<!--<a href="#"><img src="images/galery_8.jpg" height="400px;"></a>-->
 		</div>
-		<div class="box">
+		<div class="box" style="background-image: url(images/gallery1-min.jpg); background-size: auto; background-position: center; background-size: 600px 400px; background-repeat: no-repeat;">
 				<div class="menus-nm" style="position: absolute; margin-left: 30%; margin-top:300px; color: #fff; text-shadow: 1px 1px 15px #000;">
 				<h1> Emily & Brad Wedding  </h1>
 				</div>
-			<a href="#"><img src="images/gallery1-min.jpg" height="400px;"></a>
+			<!--<a href="#"><img src="images/gallery1-min.jpg" height="400px;"></a>-->
 		</div>
 	</div>
 	
@@ -740,7 +751,15 @@
     loop:true,
     margin:10,
     nav:true,
-    items:2
+    items:2,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        }
+    }
    
 });
 </script>  
@@ -854,9 +873,17 @@
 		   		<div class="Email"><span>support@example.com</span></div>
 		   	</div>
 		   	<div class="col-md-4">
-		   		<div class="backto-top" style="position: absolute; margin-top: 20px; margin-left: 100px;">
-		   		<span>dhfhfdf |</span><span class="back" style="font-family: Prata,serif; font-size: 30px;"><a href="#">Back to top</a></span>
+		   		<div class="backto-top" style="position: absolute; margin-top: 20px; margin-left: px;">
+		   		<ul class="footer-social">
+                                         <li><a href="#" style="font-size: 20px;"><i class="fa fa-facebook"></i></a></li>
+		                                 <li><a href="#" style="font-size: 20px;"><i class="fa fa-twitter"></i></a></li>
+		                                 <li><a href="#" style="font-size: 20px;"><i class="fa fa-youtube bo-social-youtube"></i></a></li>
+		                                 <li><a href="#" style="font-size: 20px;"><i class="fa fa-pinterest bo-social-pinterest"></i></a></li>
+		                                 <li><a href="#" style="font-size: 20px;"><i class="fa fa-google-plus bo-social-google-plus"></i></a></li>
+		                            </ul>
 		   	</div>
+		   	<div class="back-sp tex-left" style=" position: absolute; margin-top: 20px; margin-left: 200px; width: 200px;">
+		   	<span class="back" style="font-family: Prata,serif; font-size: 30px;">|<a href="#" style="color: #999999;">Back to top</a></span>
 		   	</div>
 		   	
 		   </div>
