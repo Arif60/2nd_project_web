@@ -328,6 +328,7 @@ body{
 	}
 	.nav .collapse navbar-collapse{
 		display: block;
+		position: absolute;
 	}
 }
 
@@ -340,10 +341,24 @@ body{
  }	
 
 }
-@media Screen and (min-width: 800px){
-	body{
-		overflow-x: hidden;
+@media Screen and (max-width: 1000px){
+.logo{
+	float: right;
+}
+ 
+}
+@media Screen and (max-width: 480px){
+.float-left{
+		display: none;
 	}
+ .float-right{
+ 	display: none;
+ }	
+
+}
+
+@media Screen and (max-width: 1000px){
+	
 }
 
 
